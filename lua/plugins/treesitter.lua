@@ -23,5 +23,8 @@ return
             filetype = "hypr",
             }
         end,
+    },
+    {
+    'nvim-treesitter/nvim-treesitter-context'
     }
 }
