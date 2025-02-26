@@ -20,10 +20,12 @@ return {
         -- Define your formatters
         formatters_by_ft = {
             lua = { "stylua" },
-            python = { "isort", "black" },
+            python = { "ruff" },
             javascript = { "prettierd", "prettier", stop_after_first = true },
             java = { "google-java-format" },
-            dart = { "dcm_format" }
+            dart = { "dcm_format" },
+            html = { "prettierd", "prettier", stop_after_first = true },
+            php = { "php-cs-fixer" }
         },
         -- Set default options
         default_format_opts = {
