@@ -1,2 +1,2 @@
-require("configs.treesitter")
-require("configs.viconfigs")
+require("configs.Treesitter")
+require("configs.ViConfigs")
