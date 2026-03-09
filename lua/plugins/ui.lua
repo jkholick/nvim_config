@@ -16,7 +16,7 @@ return {
 		options = { theme = "gruvbox" },
 		config = function()
 			require("lualine").setup({
-				options = { theme = "tomorrow_night" },
+				options = { theme = "palenight" },
 			})
 		end,
 	},
