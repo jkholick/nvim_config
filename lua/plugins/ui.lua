@@ -10,4 +10,14 @@ return {
 			vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 		end,
 	},
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		options = { theme = "gruvbox" },
+		config = function()
+			require("lualine").setup({
+				options = { theme = "tomorrow_night" },
+			})
+		end,
+	},
 }
